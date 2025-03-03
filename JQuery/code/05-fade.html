@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Fade</title>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            //Oculto 
+            $("h1").css("display", "none");
+            //Exibir título
+            $("#exibir").click(function(){
+                $("h1").fadeIn();
+            })
+            //Ocultar título
+            $("#ocultar").click(function(){
+                $("h1").fadeOut();
+            })
+            
+            /*
+               "Default"/padrão () 0,4s
+                "slow" 0,6s
+                Valor: 3000 = 3s
+            */
+        });
+        
+    </script>
+</head>
+<body>
+    <button id ="exibir">Clique aqui para exibir</button>
+    <button id = "ocultar"> Clique aqui para ocultar</button>
+    <hr>
+    <h1>Aprendendo JS</h1>
+</body>
+</html>

@@ -1,0 +1,4 @@
+|dias da semana |seg|ter|qua ...|  thead |
+|manhã|                         | tbody  |
+|tarde|                         | t body |                  
+|dias da semana|seg|ter|qua ... | tfoot  | 

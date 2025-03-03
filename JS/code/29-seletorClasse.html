@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Seletor Classe</title>
+    <script>
+        
+        function exibirTexto(){
+            var texto = document.getElementsByClassName("texto")[1];
+            
+            alert(texto.innerHTML);
+        }
+        
+    </script>
+</head>
+<body>
+    <h1 class="texto">Brasil</h1>
+    <h2 class="texto">Alemanha</h2>
+    <p class="texto">Italia</p>
+    <button onclick="exibirTexto()"> Selecionar</button>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Seletor ID</title>
+    <script>
+        function exibirConteudo(){
+            var texto = document.getElementById("campo");
+            
+            alert(texto.value);
+            
+            texto.value = "";
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="text" id="campo" placeholder="Digite qualquer coisa">
+    <button onclick="exibirConteudo()"> Confirme </button>
+</body>
+</html>

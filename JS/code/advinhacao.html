@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      
+      <title>advinhacao</title>
+   </head>
+   <body>
+      <input>
+      <button onclick="verifica()"> Clique aqui </button>
+
+      <script>
+        
+        var secrets = [2, 4, 2, 2],
+          input = document.querySelector("input");
+
+       input.focus();
+
+       console.log(secrets)
+
+      
+       function verifica(){
+           achou = false;
+
+            for(var posicao = 0; posicao < secrets.length ; posicao++){
+             if (input.value == secrets[posicao]){
+                  alert("Congratulations, u got it right !")
+                  achou = true; 
+             break;
+          }   
+
+       }
+
+       if(achou == false){
+         alert(" Made a mistake ! :<" )
+       }
+
+       input.value = "";
+       input.focus()
+
+      }
+
+   </script>
+   </body>
+</html>
+

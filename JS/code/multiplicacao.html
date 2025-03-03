@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>multiplicacoes</title>
+	<script>
+	
+		 	function pulaLinha(){
+		  		 document.write("<br><br>")
+
+		 	}
+
+			function mostra(frase){
+				document.write(frase);
+				pulaLinha()
+			}
+            
+		
+			var contador = parseInt(prompt("Digite um valor")),
+			 indicador = 1;
+
+	 for(; indicador <= 10; indicador++){
+		 mostra(contador * indicador)
+		}
+
+	 mostra( "A tabuada do " + contador + " chegou ao FIM")
+	</script>
+</head>
+</html>

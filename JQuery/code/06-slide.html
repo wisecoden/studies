@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Slice </title>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            
+            //Exibir 
+            $(".exibir").click(function(){
+                $(".texto").slideDown("slow");
+            })
+            //Ocultar
+             $(".ocultar").click(function(){
+                $(".texto").slideUp("slow");
+            })
+        });
+        
+    </script>
+</head>
+<body>
+    
+    <h1 class="exibir">Exibir</h1>
+    <h1 class="ocultar">Ocultar</h1>
+    <hr>
+    <h1 class="texto">Aprendendo JS !!!</h1>
+</body>
+</html>

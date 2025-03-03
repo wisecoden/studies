@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Seletor Conteúdo</title>
+    <script>
+        
+        function acao(){
+            var texto = document.getElementsByTagName("h1")[0];
+            
+            alert(texto.innerHTML);
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>Brasil</h1>
+    <h1>Alemanha</h1>
+    <h1>Italia</h1>
+    <button onclick="acao()"> Selecionar</button>
+</body>
+</html>

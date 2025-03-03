@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Exibir e Ocultar </title>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            
+            //Exibir 
+            $("#exibir").click(function(){
+                $("img").show();
+            })
+            //Ocultar
+            
+            $("#ocultar").click(function(){
+                $("img").hide();
+            })
+            
+        })
+       
+    </script>
+    <style>
+        
+        body{
+            background-color: slategrey;
+        }
+        img { 
+            
+            border:2px solid gold;
+
+            vertical-align:middle;margin:50px 43rem;
+        }
+        
+      section{
+             
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+           
+        }
+        
+        #ocultar{
+          margin: 10px ;
+        }
+    </style>
+    </head>
+    <body>
+        
+          <img src="./logo_proway.png">
+        
+        <section>
+        <button id="exibir">Exibir</button>
+        <button id="ocultar">Ocultar</button><br/>
+        </section>
+      
+      
+    </body>
+</html>

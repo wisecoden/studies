@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Evento Teclado</title>
+    <script>
+
+        function exibir(){
+            var campo = document.getElementById("campo").value;
+            
+            alert(campo);
+        }
+        
+    </script>
+</head>
+<body>
+    <input type="text" id="campo" placeholder="Digite qualquer coisa" onkeydown="exibir()">
+</body>
+</html>

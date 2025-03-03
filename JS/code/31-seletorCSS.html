@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title> Seletor CSS</title>
+    <script>
+        function acao(){
+            var texto = document.getElementsByTagName("h1")[0];
+            
+            texto.style.color= "Blue";
+            texto.style.fontSize = "30px";
+            texto.style.textAlign = "center";
+            
+            texto.innerHTML = "JS é legal";
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <button onclick="acao()"> Confirme </button>
+</body>
+</html>

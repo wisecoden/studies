@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Evento Alteração</title>
+    <script>
+        
+        function msg(){
+            alert("Seja bem vindo. Por favor, escolha um curso da sua preferencia.");
+        }
+
+        function mensagem(){
+            
+            var curso = document.getElementById("cursos").value;
+            
+            alert(curso);
+        }
+        
+    </script>
+</head>
+<body onload="msg()">
+    <select onchange="mensagem()" id = "cursos">
+    <option> Selecione o curso</option>
+    <option> HTML</option>
+    <option>CSS</option>
+    <option> JS </option>
+    </select>
+    
+</body>
+</html>

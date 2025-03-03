@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+
+        <meta name="viewport" content="width=device-width">
+        <link href="./src/styleContact.css" rel="stylesheet" type="text/css">
+        <link href="./img/icon.jpg" rel="icon" type="image/jpg">
+    </head>
+    <body>
+        <form>
+            <p><em> Olá, quer me enviar uma mensagem ?!</em></p>
+            <div class="campo">
+                <label for="NomeESobrenome">Nome e Sobrenome: </label>
+                <input type="text" id="NomeESobrenome"  name="nome"  required>
+            </div>
+            <div class="campo">
+                <label for="Tel">Telefone: </label>
+                <input type="tel" id="Tel"  name="tel"  placeholder="(xx) xxxx - xxxxx">
+            </div>
+            <div class="campo">
+                <label for="E-mail">E-mail:</label>
+                <input type="email" id="E-mail" name="email" placeholder="seuemail@domínio.com" required>
+            </div>
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required> </textarea> 
+            </div>
+            <input type="submit" class="enviar">
+            <hr>
+            <footer>
+                <nav><a href="index.html" > Início </a></nav>
+                <div>
+                    Criado no curso de HyperText Markup Language  &#128126;
+                    &copy; Currículo | 2023 - &#120116;
+                </div> 
+            </footer>
+        </form>
+    </body>
+</html>
